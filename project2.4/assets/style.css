@@ -1,0 +1,87 @@
+@import url(/assets/typography.css);
+
+*,
+*::after,
+*::before {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+}
+
+*/ html,
+body {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 100%;
+  max-height: 100%;
+}
+
+/* header.w3-container w3-teal {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  overflow: hidden;
+} */
+
+.header {
+  display: flex;
+  align-items: stretch;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+div.main-header {
+  padding-top: 40px;
+}
+
+.grid-selection {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 5px;
+  padding: 60px;
+  margin: 100px;
+  font-size: 20px;
+}
+
+
+.grid-selection>div {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 20px;
+}
+
+.button {
+  border: none;
+  background-color: #41913C;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.grid-container {
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 5px;
+  background-color: black;
+  padding: none;
+  margin: auto;
+}
+
+.grid-container>div {
+  background-color: black;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 12px;
+}
